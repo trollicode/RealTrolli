@@ -13,7 +13,8 @@ namespace RealTrolli
 		{
 			InitializeComponent();
 
-			MainPage = new RealTrolli.MainPage();
+            MainPage = new NavigationPage(new WelcomeTrolliPage());
+           // MainPage = new Registrations();
 		}
 
 		protected override void OnStart ()

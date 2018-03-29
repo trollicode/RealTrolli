@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:RealTrolli"
              x:Class="RealTrolli.MainPage">
-
+    <StackLayout>
 	<Label Text="Welcome to Xamarin.Forms!" 
            VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+           HorizontalOptions="Center" x:Name="test"/>
+        <Entry Placeholder="Test" x:Name="get"/>
+        <Button Text="Submit" Clicked="btn" />
+    </StackLayout>
 </ContentPage>
