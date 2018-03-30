@@ -29,11 +29,19 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>NSLocationAlwaysUsageDescription</key>
+<<<<<<< HEAD
 	<string>Your current location is used to provide you with a local weather forecast.</string>
 	<key>NSLocationUsageDescription</key>
 	<string>Your current location is used to provide you with a local weather forecast.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Your current location is used to provide you with a local weather forecast.</string>
+=======
+<string>Your current location is used to provide you with a local weather forecast.</string>
+<key>NSLocationUsageDescription</key>
+<string>Your current location is used to provide you with a local weather forecast.</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Your current location is used to provide you with a local weather forecast.</string>
+>>>>>>> 7c169c09e5f31ca728e476772ccef86f2ce5fc3d
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>Icon-60@2x</string>

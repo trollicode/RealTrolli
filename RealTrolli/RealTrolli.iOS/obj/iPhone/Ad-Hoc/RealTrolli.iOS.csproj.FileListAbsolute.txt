@@ -77,7 +77,10 @@ F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli.iOS\obj\iPhone\Ad-Hoc\optimized
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli.iOS\obj\iPhone\Ad-Hoc\optimized\Icon-Small@2x.png
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli.iOS\obj\iPhone\Ad-Hoc\optimized\Icon-Small@3x.png
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli.iOS\obj\iPhone\Ad-Hoc\optimized\
+<<<<<<< HEAD
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli.iOS\obj\iPhone\Ad-Hoc\RealTrolli.iOS.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> 7c169c09e5f31ca728e476772ccef86f2ce5fc3d
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli.iOS\obj\iPhone\Ad-Hoc\RealTrolli.iOS.csproj.CoreCompileInputs.cache
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli.iOS\obj\iPhone\Ad-Hoc\RealTrolli.iOS.csproj.CopyComplete
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli.iOS\obj\iPhone\Ad-Hoc\RealTrolli.iOS.exe

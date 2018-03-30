@@ -3,12 +3,24 @@ F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\bin\Debug\netstandard2.0\RealTr
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\bin\Debug\netstandard2.0\RealTrolli.pdb
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.csproj.CoreCompileInputs.cache
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.App.xaml.g.cs
+<<<<<<< HEAD
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.ClientMainPage.xaml.g.cs
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.CompleteRegistration.xaml.g.cs
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.MainPage.xaml.g.cs
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.Registrations.xaml.g.cs
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.WelcomeTrolliPage.xaml.g.cs
+=======
+F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.MainPage.xaml.g.cs
+>>>>>>> 7c169c09e5f31ca728e476772ccef86f2ce5fc3d
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.AssemblyInfoInputs.cache
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.AssemblyInfo.cs
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.dll
 F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.pdb
+<<<<<<< HEAD
+=======
+F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.csprojResolveAssemblyReference.cache
+F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.WelcomeTrolliPage.xaml.g.cs
+F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.ClientMainPage.xaml.g.cs
+F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.CompleteRegistration.xaml.g.cs
+F:\Xamarin Data\RealTrolli\RealTrolli\RealTrolli\obj\Debug\netstandard2.0\RealTrolli.Registrations.xaml.g.cs
+>>>>>>> 7c169c09e5f31ca728e476772ccef86f2ce5fc3d

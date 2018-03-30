@@ -2,6 +2,10 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SelectedDevice>Device</SelectedDevice>
+<<<<<<< HEAD
     <DefaultDevice>iPhone 6s Plus iOS 11.2</DefaultDevice>
+=======
+    <DefaultDevice>iPhone X iOS 11.2</DefaultDevice>
+>>>>>>> 7c169c09e5f31ca728e476772ccef86f2ce5fc3d
   </PropertyGroup>
 </Project>

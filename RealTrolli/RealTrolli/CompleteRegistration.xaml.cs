@@ -57,7 +57,12 @@ namespace RealTrolli
                 string postCodes = postCode.Text;
                 string country = "Australia";
                 string userType = "Client";
+<<<<<<< HEAD
                 
+=======
+                try
+                {
+>>>>>>> 7c169c09e5f31ca728e476772ccef86f2ce5fc3d
                     var locator = CrossGeolocator.Current;
                     locator.DesiredAccuracy = 50;
 
@@ -66,7 +71,11 @@ namespace RealTrolli
                     string latitude = "" + position.Latitude;
                     string longitude = ""+ position.Longitude;
 
+<<<<<<< HEAD
                      SignupBean bean = new SignupBean
+=======
+                    /* SignupBean bean = new SignupBean
+>>>>>>> 7c169c09e5f31ca728e476772ccef86f2ce5fc3d
                                          {
                                              name = name,
                                              email = emailId,
@@ -82,9 +91,15 @@ namespace RealTrolli
                                          };
 
                      ApiCalling callApi = new ApiCalling();
+<<<<<<< HEAD
                       callApi.signupPost(bean);
                     //string postUrl = "https://trolli-194513.appspot.com/registration?fullName=" + name + "&simNumber=" + phoneNumber + "&suburb=" + subrubs + "&state=" + states + "&postCode=" + postCodes + "&country=" + country + "&email=" + emailId + "&userType=" + userType + "&latitude=" + latitude + "&longitude=" + longitude + "&deviceId=" + deviceId;
                    // await _client.PostAsync("https://trolli-194513.appspot.com/registration?fullName=" + name + "&simNumber=" + phoneNumber + "&suburb=" + subrubs + "&state=" + states + "&postCode=" + postCodes + "&country=" + country + "&email=" + emailId + "&userType=" + userType + "&latitude=" + latitude + "&longitude=" + longitude + "&deviceId=" + deviceId, null);
+=======
+                      callApi.signupPost(bean);*/
+                    //string postUrl = "https://trolli-194513.appspot.com/registration?fullName=" + name + "&simNumber=" + phoneNumber + "&suburb=" + subrubs + "&state=" + states + "&postCode=" + postCodes + "&country=" + country + "&email=" + emailId + "&userType=" + userType + "&latitude=" + latitude + "&longitude=" + longitude + "&deviceId=" + deviceId;
+                    await _client.PostAsync("https://trolli-194513.appspot.com/registration?fullName=" + name + "&simNumber=" + phoneNumber + "&suburb=" + subrub + "&state=" + states + "&postCode=" + postCodes + "&country=" + country + "&email=" + email + "&userType=" + userType + "&latitude=" + latitude + "&longitude=" + longitude + "&deviceId=" + deviceId, null);
+>>>>>>> 7c169c09e5f31ca728e476772ccef86f2ce5fc3d
 
                     Application.Current.Properties["id"] = deviceId;
                     Application.Current.Properties["phoneNumber"] = phoneNumber;
@@ -95,7 +110,14 @@ namespace RealTrolli
 
 
                     await Navigation.PushAsync(new ClientMainPage(name));
+<<<<<<< HEAD
                 
+=======
+                }
+                catch (Exception ex) {
+                    await DisplayAlert("Error", "Please Try Again", "Ok");
+                }
+>>>>>>> 7c169c09e5f31ca728e476772ccef86f2ce5fc3d
             }
         }
 
