@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+             NavigationPage.HasNavigationBar="False"
+                NavigationPage.BackButtonTitle="False"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealTrolli.CompleteRegistration">
+   
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label x:Name="testDeviceID" Text="Signup" FontSize="24" HorizontalOptions="Center"/>
+        <Entry x:Name="fullName" Text="" Placeholder="Full Name" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="email" Text="" Placeholder="Email" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="subrub" Text="" Placeholder="Subrub" HorizontalOptions="FillAndExpand"/>
+        <Picker x:Name="statesPicker" Title="State                         ">
+            <Picker.Items>
+                <x:String>ACT</x:String>
+                <x:String>NSW</x:String>
+                <x:String>NT</x:String>
+                <x:String>QLD</x:String>
+                <x:String>SA</x:String>
+
+                <x:String>TAS</x:String>
+                <x:String>VIC</x:String>
+                <x:String>WA</x:String>
+
+            </Picker.Items>
+        </Picker>
+        <Entry x:Name="postCode" Text="" Placeholder="Postal Code" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+
+        <Label Text="Country: Australia" VerticalTextAlignment="End" FontSize="18" FontAttributes="Bold"/>
+        <Button x:Name="btnSignUp" Text="Sign up" Clicked="signUp_button" BorderRadius="100" BackgroundColor="Aqua"/>
+
+    </StackLayout>
+  
+</ContentPage>

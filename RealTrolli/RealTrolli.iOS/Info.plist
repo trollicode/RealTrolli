@@ -21,13 +21,19 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>11.2</string>
+	<string>10.3</string>
 	<key>CFBundleDisplayName</key>
 	<string>RealTrolli</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.RealTrolli</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your current location is used to provide you with a local weather forecast.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Your current location is used to provide you with a local weather forecast.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your current location is used to provide you with a local weather forecast.</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>Icon-60@2x</string>
